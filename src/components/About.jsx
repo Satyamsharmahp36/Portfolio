@@ -47,11 +47,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+I'm a skilled Full Stack Developer with expertise in <b className="text-white">Kafka, Spring Boot, MySQL, MongoDB, React, Expo, TypeScript, and Node.js.</b> I specialize in building scalable, real-time, and high-performance applications across web and mobile platforms.
+
+With a strong foundation in backend architecture, microservices, and real-time data streaming, I create efficient solutions that solve real-world problems. Let's collaborate and bring innovative ideas to life! 🚀
+
+<br></br>
+I also have experience with <b className="text-white"> LangChain, TensorFlow, Tesseract OCR, and Next.js </b>, allowing me to work on <b className="text-white"> AI-driven applications </b>, document processing, and advanced web solutions. From intelligent automation to deep learning models, I integrate cutting-edge technologies to build efficient and innovative applications. 🚀
+
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
