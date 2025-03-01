@@ -7,6 +7,7 @@ const App = () => {
   const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {
+    // Check if the screen width is less than 768px (mobile devices)
     const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
     if (isMobile) {
@@ -34,6 +35,8 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+
+        {/* Mobile Popup Modal */}
         {showPopup && (
   <div className="fixed inset-0 flex items-center justify-center z-50">
     <div className="absolute inset-0 bg-black/40 backdrop-blur-md animate-fadeIn"></div>
@@ -57,7 +60,6 @@ const App = () => {
           </svg>
         </button>
         
-
       </div>
     </div>
   </div>
