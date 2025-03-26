@@ -2,7 +2,7 @@ import React from "react";
 
 const AIChatButton = () => {
   const handleClick = () => {
-    window.location.href = "https://soft-gelato-90d717.netlify.app/";
+    window.location.href = "https://chatoomate.vercel.app/";
   };
 
   return (
