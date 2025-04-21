@@ -62,7 +62,6 @@ const App = () => {
         )}
       </div>
       
-      <AIChatButton />
     </BrowserRouter>
   );
 };
